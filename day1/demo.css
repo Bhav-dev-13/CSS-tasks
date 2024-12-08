@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9; /* Light page background */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #6c63ff; /* Purple for main heading */
+  }
+  
+  h3 {
+    color: #333333; /* Dark grey for subheadings */
+  }
+  
+  p {
+    color: #555555; /* Medium grey for paragraph text */
+  }
+  
+  hr {
+    border: 0;
+    height: 2px;
+    background: #6c63ff; /* Purple divider */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th {
+    background-color: #6c63ff; /* Purple header background */
+    color: white;
+    padding: 10px;
+  }
+  
+  table td {
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 10px;
+  }
+  
+  ul {
+    margin: 10px 0;
+  }
+  
+  ul li {
+    line-height: 1.6;
+  }
+  
