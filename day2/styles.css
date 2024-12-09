@@ -1,0 +1,108 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #2d3436;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Container Styling */
+  .container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next row */
+    justify-content: center; /* Centers cards horizontally */
+    gap: 20px; /* Spacing between cards */
+    margin-top: 20px;
+  }
+  
+  /* Card Styling */
+  .card {
+    display: flex;
+    flex-direction: column; /* Stacks content vertically */
+    align-items: center; /* Center-aligns content horizontally */
+    justify-content: space-between; /* Evenly distributes content */
+    padding: 20px; /* Equal padding inside the card */
+    margin: 0; /* No additional margin needed */
+    width: 45%; /* Fixed width */
+    height: 180px; /* Fixed height */
+    border-radius: 2px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  /* Headings inside Cards */
+  .card h2 {
+    margin: 10px 0;
+    font-size: 22px;
+    color: #333;
+  }
+  
+  /* Paragraph inside Cards */
+  .card p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: black;
+  }
+  
+  /* Buttons inside Cards */
+  .card button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .card button:hover {
+    background-color: #555;
+  }
+
+  .header {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next row */
+    justify-content: center; /* Centers cards horizontally */
+    gap: 25px; /* Spacing between cards */
+    margin-top: 100px;
+  }
+  .head {
+    display: flex;
+    flex-direction: column; /* Stacks content vertically */
+    align-items: center; /* Center-aligns content horizontally */
+    justify-content: space-between; /* Evenly distributes content */
+    padding: 20px; /* Equal padding inside the card */
+    margin: 0; /* No additional margin needed */
+    width: 45%; /* Fixed width */
+    height: 50%; /* Fixed height */
+    border-radius: 2px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  .footer {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next row */
+    justify-content: center; /* Centers cards horizontally */
+    gap: 25px; /* Spacing between cards */
+    margin-top: 20px;
+  }
+  .foot {
+    display: flex;
+    flex-direction: column; /* Stacks content vertically */
+    align-items: center; /* Center-aligns content horizontally */
+    justify-content: space-between; /* Evenly distributes content */
+    padding: 20px; /* Equal padding inside the card */
+    margin: 0; /* No additional margin needed */
+    width: 20%; /* Fixed width */
+    height: 50%; /* Fixed height */
+    border-radius: 2px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  
