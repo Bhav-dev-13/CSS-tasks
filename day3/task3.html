@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .netflix {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);;
+            display: flex;
+            flex-wrap: wrap; /* Allows wrapping to next row */
+            justify-content: space-between; /* Distributes cards evenly */
+            padding: 2%; /* Padding around the container */
+            gap: 2%; /* Space between cards */
+        }
+
+        .movie {
+            background: #e3fcec;
+            display: flex;
+            flex-direction: column; /* Stack content vertically */
+            align-items: center;
+            justify-content: space-between;
+            width: 30%; /* Three cards per row (100% / 3 - spacing) */
+            margin-bottom: 2%;
+            border-radius: 2%; /* Rounded corners */
+            padding: 5%; /* Padding inside each card */
+            box-shadow: 0 2% 5% rgba(0, 0, 0, 0.2); /* Box shadow for a raised effect */
+            border: 1% solid #ddd; /* Border for each card */
+            text-align: center;
+        }
+
+        .movie img {
+            border-radius: 2%; /* Rounded corners for images */
+            width: 100%; /* Image fits card width */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .movie h1 {
+            font-size: 120%; /* Relative font size */
+            margin: 5% 0 3%;
+        }
+
+        .movie p {
+            font-size: 90%; /* Smaller text */
+            margin-bottom: 5%;
+            color: #555;
+            background-color: #e8f5e9;
+        }
+
+        .movie button {
+            padding: 5% 10%; /* Button size relative to card size */
+            font-size: 100%;
+            border: none;
+            border-radius: 5%; /* Rounded button */
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .movie button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="netflix">
+        <div class="movie">
+            <img src="darkknight.jpeg" alt="darkknight">
+            <h1>THE DARK KNIGHT</h1>
+            <p>"Batman has no limit."</p>
+            <button>BATMAN</button>
+        </div>
+        <div class="movie">
+            <img src="spiy.jpg" alt="home">
+            <h1>SPIDER MAN HOMECOMING</h1>
+            <p>"With great power comes great responsibility."</p>
+            <button>SPIDER MAN</button>
+        </div>
+        <div class="movie">
+            <img src="dead.jpg" alt="dead">
+            <h1>DEADPOOL AND WOLVERINE</h1>
+            <p>"With great power comes great responsibility."</p>
+            <button>DEAD AND WOOL</button>
+        </div>
+        <div class="movie">
+            <img src="wonder.jpg" alt="wonder">
+            <h1>WONDER WOMAN</h1>
+            <p>"I don't think you've ever known a woman like me. But I'm willing to fight for those who cannot fight for themselves"</p>
+            <button>WONDER WOMAN</button>
+        </div>
+        <div class="movie">
+            <img src="joker.jpg" alt="joker">
+            <h1>JOKER</h1>
+            <p>"I'm A Man Of My Word."
+                <br>
+                “I Believe That Whatever Doesn't Kill You, Simply Makes You"</p>
+            <button>JOKER</button>
+        </div>
+        <div class="movie">
+            <img src="avengers.jpg" alt="avengers">
+            <h1>AVENGERS ASSEMBLE</h1>
+            <p>"If we're going to win this fight, some of us might have to lose it"</p>
+            <button>AVENGERS</button>
+        </div>
+    </div>
+</body>
+</html>
