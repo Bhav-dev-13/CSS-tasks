@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edge-Aligned Bigger Images</title>
+    <style>
+       * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+          overflow: hidden; /* Prevents page overflow */
+          background-color: #2e2bce; /* Light background for the body */
+        }
+
+        .container {
+          position: relative;
+          width: 80%; /* Make the container responsive */
+          max-width: 600px; /* Prevent it from growing too large */
+          aspect-ratio: 4 / 3; /* Keeps the container proportional */
+          border: 1px solid black; /* Optional: Border for visual aid */
+          background-color: #3dbae0; /* Light blue background for the container */
+        }
+
+        .image {
+          position: absolute;
+          width: 40%; /* Increased image size */
+          height: auto; /* Maintain aspect ratio */
+          border-radius: 10px;
+        }
+
+        /* Images aligned to the edges */
+        .image1 {
+          top: 0;
+          left: 0;
+          transform: translate(-15%, -15%); /* Adjusted to slightly overlap the edges */
+        }
+
+        .image2 {
+          top: 0;
+          right: 0;
+          transform: translate(15%, -15%);
+        }
+
+        .image3 {
+          bottom: 0;
+          left: 0;
+          transform: translate(-15%, 15%);
+        }
+
+        .image4 {
+          bottom: 0;
+          right: 0;
+          transform: translate(15%, 15%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="car.jpg" alt="Image 1" class="image image1">
+        <img src="flight1.jpg" alt="Image 2" class="image image2">
+        <img src="ship.jpg" alt="Image 3" class="image image3">
+        <img src="train.jpg" alt="Image 4" class="image image4">
+    </div>
+</body>
+</html>
