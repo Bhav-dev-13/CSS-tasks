@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box styling</title>
+    <style>
+        /* General styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  gap: 20%; /* Space between the boxes */
+  justify-content: center;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.box {
+  width: 20%;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  background-color: white;
+   
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: gray;
+}
+.stacked{
+    box-shadow: 
+    blue 0px 0px 0px 2px inset,
+    rgb(255, 255, 255) 20px -20px 0px -3px,
+    rgb(31,193,27) 20px -20px,
+    white 40px -40px 0px -3px,
+    rgb(255, 215, 19) 40px -40px,
+    white 60px -60px 0px -3px,
+    rgb(255,156,85) 60px -60px,
+    rgb(255,255,255) 80px -80px 0px -3px,
+    rgb(255, 85, 85) 80px -80px;
+}
+.outlined{
+    box-shadow: 
+    rgb(84, 84, 189) 0px 0px 0px 4px,
+    rgb(31,193,27) 0px 0px 0px 8px,
+    rgb(255, 215, 19) 0px 0px 0px 12px,
+    rgb(255,156,85) 0px 0px 0px 16px,
+    rgb(255, 85, 85) 0px 0px 0px 20px;
+}     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box stacked">
+            <span>#60<br>by Fossheim</span>
+    
+</div>
+<div class="box outlined">
+    <span>#61<br>by Fossheim</span>
+
+</div>
+</div>
+    
+
+    
+</body>
+</html>
