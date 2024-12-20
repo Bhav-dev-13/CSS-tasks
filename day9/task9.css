@@ -1,0 +1,140 @@
+h1{
+    text-align: center;
+    border: solid;
+    width: 80%;
+    margin-left: 150px;
+    padding: 12px;
+    box-shadow: -2px -2px 12px 10px rgb(95, 164, 204) inset,2px 2px 7px 3px rgb(96, 94, 94);
+}
+.container{
+    background-color: white;
+    display: flex;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.container>div{
+
+    margin: 40px;
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 5px 3px 5px 5px rgb(96, 94, 94);
+    border-radius: 10px;
+    gap: 20px 20px;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+
+
+}
+.container>div:hover{
+        font-weight: bold;
+        transform: scale(1.05);
+}
+#oswald { background-color: #ffe6e6;} 
+#kanit { background-color: #e0f7fa; } 
+#josefin { background-color: #fef9e7; } 
+#danfo { background-color: #ffedea; } 
+#playball { background-color: #e8f5e9; } 
+#great { background-color: #ede7f6; } 
+#lob { background-color: #ffebee; } 
+#rowdy { background-color: #fffde7; } 
+#pacifico { background-color: #e8f0fe; } 
+#micro-5 { background-color: #dcedf7; } 
+#shadow { background-color: #f1f8e9; } 
+#tiny { background-color: #ffede6; } 
+#abril { background-color: #f2f6ec; } 
+#serif { background-color: #fde2f2; } 
+#jersey { background-color: #e4f7fa; } 
+#babas { background-color: #fdf2f2; } 
+#italia { background-color: #fff5e6; } 
+#jacquard { background-color: #e7ebfa; } 
+#permanent { background-color: #eafaf1; } 
+
+.four:hover{
+    font-family: "Oswald", serif;
+}
+.one:hover{
+        font-family: "Kanit", serif;
+}
+.two:hover{
+    font-family: "Josefin Slab", serif;
+
+}
+.three:hover{
+    font-family: "Danfo", serif; 
+}
+.five:hover{
+    font-family: "Great Vibes", serif;
+}
+.six:hover{
+    font-family: "Playball", serif;
+
+}
+.seven:hover{
+    font-family: "Lobster", serif;
+
+}
+.eight:hover{
+    font-family: "Rowdies", sans-serif;
+
+}
+.nine:hover{
+    font-family: "Great Vibes", serif;
+
+}
+.ten:hover{
+    font-family: "Micro 5", serif;
+}
+.wa1:hover{
+    font-family: "Jacquard 12", serif;
+
+}
+.wa2:hover{
+    font-family: "Shadows Into Light", serif;
+}
+.wa3:hover{
+    font-family: "Tiny5", serif;
+}
+.wa4:hover{
+    font-family: "Permanent Marker", serif;
+}
+.wa5:hover{
+    font-family: "Abril Fatface", serif;
+}
+.wa6:hover{
+    font-family: "DM Serif Text", serif;
+}
+.wa7:hover{
+    font-family: "Playwrite IN", serif;
+}
+.wa8:hover{
+    font-family: "Jersey 15", serif;
+}
+.wa9:hover{
+    font-family: "Babylonica", serif;
+}
+.wa10:hover{
+    font-family: "Italianno", serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
