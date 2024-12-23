@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layouts</title>
+    <style>
+        
+        .parent{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-areas: 
+            "Header nav nav Section Section"
+            "Header aside article article Header1"
+            "nav1 aside article article Header1"
+            "nav1 Section1 Section1 Footer Header1";
+            gap: 10px;
+            background-color: lightsalmon;
+            
+            
+
+        }
+        .parent>div
+        {
+        
+        padding:100px;
+    
+       }
+       .child1{
+        grid-area: Header;
+        background-color: red;
+        color: white;
+       }
+       .child2{
+        grid-area: nav;
+        background-color: aqua;
+       }
+       .child3{
+        grid-area: Section;
+        background-color: saddlebrown;
+        color: white ;
+       }
+       .child4{
+        grid-area: aside;
+        background-color: saddlebrown;
+       }
+       .child5{
+        grid-area: article;
+        background-color: wheat;
+       }
+       .child6{
+        grid-area: Header1;
+        background-color: red;
+       }
+       .child7{
+        grid-area: nav1;
+        background-color: wheat;
+       }
+       .child8{
+        grid-area: Section1;
+        background-color: red;
+       }
+       .child9{
+        grid-area: Footer;
+        background-color: aqua;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">Header</div>
+        <div class="child2">nav</div>
+        <div class="child3">Section</div>
+        <div class="child4">Aside</div>
+        <div class="child5">Article</div>
+        <div class="child6">Header1</div>
+        <div class="child7">nav1</div>
+        <div class="child8">Section1</div>
+        <div class="child9">Footer</div>
+    </div>
+</body>
+</body>
+</html>
